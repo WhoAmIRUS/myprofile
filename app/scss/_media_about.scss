@@ -21,10 +21,7 @@
   .wrapper{
     padding-bottom: 30px;
   }
-  .about__wrapper{
-    flex-flow: row wrap;
-  }
-  .career__wrapper{
+  .main__wrapper{
     flex-flow: row wrap;
   }
   .way{
@@ -65,6 +62,10 @@
     &__title{
       font-size: 26px;
     }
+  }
+  .projects{
+    padding-left: 0;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 580px){
@@ -173,11 +174,11 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .main__title{
+    text-align: center;
+  }
   .way{
     justify-content: center;
-    &__title{
-      text-align: center;
-    }
     &__content{
       align-items: center;
       flex-flow: column nowrap;
@@ -199,5 +200,11 @@
     &-year{
       display: none;
     }
+  }
+  .projects__{
+
+  }
+  .projects__content{
+    justify-content: center;
   }
 }
