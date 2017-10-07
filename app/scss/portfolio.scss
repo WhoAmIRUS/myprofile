@@ -5,6 +5,8 @@
     padding-top: 30px;
     display: flex;
     flex-flow: row wrap;
+    margin-right: -20px;
+    margin-left: -24px;
   }
 }
 
@@ -13,9 +15,10 @@
   border-radius: 9px;
   background-color: white;
   height: 100%;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-bottom: 20px;
   transition: all 0.3s;
+  margin-left: 10px;
   &:hover{
     cursor: pointer;
     transform: scale(1.1);
